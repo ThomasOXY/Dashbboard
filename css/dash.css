@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/*
+.app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+  background-color: #18212b;
+    flex-flow: column;
+
+
+
+
+        #delete {
+            background-color: rgb(175, 41, 41);
+            border: none;
+            color: white;
+            padding: 1em;
+            width: 10em;
+        }
+    
+        #TurnON{
+            background-color: rgb(83, 175, 41);
+            border: none;
+        color: white;
+        padding: 1em;
+        width: 10em;
+            } 
+            #TurnOFF{
+                background-color: rgb(190, 137, 21);
+                border: none;
+            color: white;
+            padding: 1em;
+            width: 10em;
+                } 
+        
+    
+    }
+*/
+.quickTabs {
+  width: 100%;
+  height: 20vh;
+  background-color: #f5f6fa;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 2em;
+}
+
+.quickTabs .tab {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-family: 'Poppins', sans-serif;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#3384fd), to(#026bc2));
+  background-image: linear-gradient(to bottom right, #3384fd, #026bc2);
+  width: 10em;
+  height: 5em;
+  border-radius: 10px;
+}
+
+.quickTabs .tab h3 {
+  margin-left: 10px;
+  color: white;
+  text-align: center;
+}
+
+.quickTabs i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.btns {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em;
+}
+
+.btns form input {
+  margin-left: 10px;
+  color: white;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  width: 10em;
+  height: 5em;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#3384fd), to(#026bc2));
+  background-image: linear-gradient(to bottom right, #3384fd, #026bc2);
+}
+
+.btns .delete {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#fd3333), to(#c20252));
+  background-image: linear-gradient(to bottom right, #fd3333, #c20252);
+}
+
+.btns .TurnON {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#5de73b), to(#02c20c));
+  background-image: linear-gradient(to bottom right, #5de73b, #02c20c);
+}
+
+.btns .TurnOFF {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#fdfa33), to(#c29502));
+  background-image: linear-gradient(to bottom right, #fdfa33, #c29502);
+}
+
+#PlayPower {
+  color: #5ce041;
+  font-size: 2em;
+}
+
+.SysInfo .Info {
+  color: white;
+  font-size: 1em;
+}
+
+.SysInfo #NumberReq {
+  color: white;
+  font-size: 1.5em;
+}
+
+.SysInfo #PlaylistState {
+  color: #14ce14;
+  font-size: 1.5em;
+}
+
+.SysInfo #DatabaseState {
+  color: #14ce14;
+  font-size: 1.5em;
+}
+/*# sourceMappingURL=dash.css.map */
